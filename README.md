@@ -9,6 +9,8 @@ In our flagship product, Fabric, we use widgets to allow putting together highly
 The application should be able to store widgets in a List and print their coordinates with their shape and size (not their area, just their dimensions).
 For that you need to create a simple widget repository, through which you can add widgets and get the full list of widgets.
 
+We have created the Visual Studio project with some interfaces already added to help you get started quickly. Make sure to **implement** and **extend** these interfaces as neccessary.
+
 Coordinates are x and y integer values on an imaginary page.
 \
 The size/shape depends on the widget, as follows:
@@ -24,8 +26,6 @@ NOTE:
 Your console application should be able to 'print out' the current drawing by printing the key details of each widget (type, location, size/shape) to the console.
 
 You DO NOT need to worry about any input from the user, you can use a hardcoded set of widgets to test the drawing simulator.
-
-We have created the Visual Studio project with some interfaces already added to help you get started quickly. Make sure to implement and extend these interfaces as neccessary.
 
 Also, don't forget to utilise inheritence and try adding validations for the data when creating widgets. You can use any solution for validations, throwing and catching exceptions are preferred.
 
