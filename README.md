@@ -27,7 +27,7 @@ Your console application should be able to 'print out' the current drawing by pr
 
 You DO NOT need to worry about any input from the user, you can use a hardcoded set of widgets to test the drawing simulator.
 
-We have created the Visual Studio project with some interfaces already added to help you get started quickly, make sure to implement these interfaces.
+We have created the Visual Studio project with some interfaces already added to help you get started quickly. Make sure to implement and extend these interfaces as neccessary.
 
 Also, don't forget to utilise inheritence and try adding validations for the data when creating widgets. You can use any solution for validations, throwing and catching exceptions are preferred.
 
