@@ -1,5 +1,6 @@
-﻿using DrawingPackage.Widgets;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace DrawingPackage
 {
@@ -9,10 +10,16 @@ namespace DrawingPackage
         {
             try
             {
-                // ...AddWidget(new Rectangle(10, 10, 30, 40));
-                // ...AddWidget(new Square(15, 30, 35));
-                // ...AddWidget(new Circle(1, 1, 300));
-                // ...AddWidget(new TextBox(5, 5, 200, 100, "sample text"));
+                // Create new repository instance here
+
+
+                // ...Add(new Rectangle(15, 20, 40, 60));
+                // ...Add(new Circle(10, 0, 240));
+                // ...Add(new Textbox(30, 5, 200, 10, "sample text"));
+
+                
+                // Query widgets from the repository here
+
 
                 // ...Draw();
 
