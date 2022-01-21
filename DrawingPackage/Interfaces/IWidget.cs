@@ -9,5 +9,6 @@ namespace DrawingPackage.Interfaces
     /// </summary>
     public interface IWidget
     {
+        public void Draw();
     }
 }
