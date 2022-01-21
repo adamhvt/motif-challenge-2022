@@ -4,7 +4,6 @@ In our flagship product, Fabric, we use widgets to allow putting together highly
 
 - Circle
 - Rectangle
-- Square
 - Textbox
 
 The application should be able to store widgets in a List and print their coordinates with their shape and size (not their area, just their dimensions).
@@ -15,7 +14,6 @@ Coordinates are x and y integer values on an imaginary page.
 The size/shape depends on the widget, as follows:
 - Circle – diameter
 - Rectangle – width and height
-- Square – width
 - Textbox – bounding rectangle (width and height)
 
 NOTE:
