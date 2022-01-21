@@ -38,7 +38,6 @@ We will evaluate your exercise on your ability to follow requirements while demo
 In Main method add the following widgets:
 
 - Rectangle x=15, y=20, width= 40, height=60
-- Square x=20, y=30, width=35
 - Circle x=10, y=0, size=240
 - Textbox x=30, y=5, width=200, height=10, text="Sample Text"
 
@@ -46,8 +45,6 @@ In Main method add the following widgets:
 Your console must output the following when the required Print function is called:
 
 Rectangle (15,20) width=40 height=60
-\
-Square (20,30) size=35
 \
 Circle (10,0) size=240
 \
