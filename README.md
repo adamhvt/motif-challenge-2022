@@ -19,8 +19,8 @@ The size/shape depends on the widget, as follows:
 - Textbox – bounding rectangle (width and height)
 
 NOTE:
-- integer units are fine for all dimensions
-- for the textbox you will also need to store the text to display, but don’t worry about font face /size / alignment, etc. 
+- integer units are fine for all dimensions and they must be a **positive number**
+- for the textbox you will also need to store the text to display, but don’t worry about font face /size / alignment, etc. The text **cannot be null or empty**
 - please use a separate .cs file for each class
 
 Your console application should be able to 'print out' the current drawing by printing the key details of each widget (type, location, size/shape) to the console.
