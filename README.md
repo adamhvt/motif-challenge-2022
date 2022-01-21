@@ -23,9 +23,9 @@ NOTE:
 - for the textbox you will also need to store the text to display, but don’t worry about font face /size / alignment, etc. The text **cannot be null or empty**
 - please use a separate .cs file for each class
 
-Your console application should be able to 'print out' the current drawing by printing the key details of each widget (type, location, size/shape) to the console.
+Your console application should be able to 'print out' the key details of each widget (type, location, size/shape) to the console.
 
-You DO NOT need to worry about any input from the user, you can use a hardcoded set of widgets to test the drawing simulator.
+You DO NOT need to worry about any input from the user, you can use a hardcoded set of widgets to test the solution.
 
 Also, don't forget to utilise inheritence and try adding validations for the data when creating widgets. You can use any solution for validations, throwing and catching exceptions are preferred.
 
