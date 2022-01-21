@@ -2,19 +2,21 @@
 
 In our flagship product, Fabric, we use widgets to allow putting together highly customisable web pages. Your task is to develop a simple Visual Studio Console Application which simulates a vector-based widget package. Your application should support the following drawing objects (widgets):
 
-1. Circle
-2. Rectangle
-3. Square
-4. Textbox
+- Circle
+- Rectangle
+- Square
+- Textbox
 
-The application should be able to store widgets in memory only (List) and print their coordinates with their shape and size (not their area, just their dimensions).
+The application should be able to store widgets in a List and print their coordinates with their shape and size (not their area, just their dimensions).
+For that you need to create a simple widget repository, through which you can add widgets and get the full list of widgets.
+
 Coordinates are x and y integer values on an imaginary page.
-
+\
 The size/shape depends on the widget, as follows:
-- circle – diameter
-- rectangle – width and height
-- square – width
-- textbox – bounding rectangle (width and height)
+- Circle – diameter
+- Rectangle – width and height
+- Square – width
+- Textbox – bounding rectangle (width and height)
 
 NOTE:
 - integer units are fine for all dimensions
@@ -27,10 +29,28 @@ You DO NOT need to worry about any input from the user, you can use a hardcoded 
 
 We have created the project with some code already added to help you get started quickly.
 
-Also, don't forget to utilise inheritence and try to validate the data  when creating the widgets.
+Also, don't forget to utilise inheritence and try adding validations for the data when creating widgets. You can use any solution for validations, throwing and catching exceptions are preferred.
 
 ## Grading ✔
 We will evaluate your exercise on your ability to follow requirements while demonstrating good programming practices, such as: Maintainability, Extensibility, Robustness to changing requirements, Testability and SOLID principles.
 
+## Required Output
+In Main method add the following widgets:
+
+- Rectangle x=15, y=20, width= 40, height=60
+- Square x=20, y=30, width=35
+- Circle x=10, y=0, size=240
+- Textbox x=30, y=5, width=200, height=10, text="Sample Text"
+
+\
+Your console must output the following when the required Print function is called:
+
+Rectangle (15,20) width=40 height=60
+\
+Square (20,30) size=35
+\
+Circle (10,0) size=240
+\
+Textbox (30,5) width=200 height=10 text="Sample Text"
 
 ### Good luck!
